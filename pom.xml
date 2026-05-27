@@ -26,6 +26,12 @@
     </properties>
 
     <dependencies>
+        <!-- Spring Boot Web (enables H2 console at /h2-console) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <!-- Spring Boot + JPA (Hibernate) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
